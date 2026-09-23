@@ -1,0 +1,52 @@
+# ============================================================
+#  GANDALF - Voice command mapping file  (commands.txt)
+# ============================================================
+#  Open this file in Notepad and ADD / EDIT YOUR OWN voice
+#  commands. You do NOT need to rebuild the exe.
+#
+#  Rule: each line is one mapping.
+#     spoken_phrase = command
+#
+#  "spoken_phrase": what you say in the command (lowercase).
+#  "command": the command format Gandalf understands. Use these:
+#      open <app>                  -> opens the app        (e.g. open chrome)
+#      close <app>                 -> closes the app       (e.g. close chrome)
+#      weather in <city>           -> weather report       (e.g. weather in Antalya)
+#      send a message to <person> saying <message>  -> sends a message
+#      search <question>           -> searches the web
+#
+#  Lines starting with # are comments. Blank lines are ignored.
+#  When you say something, the first mapping whose "spoken_phrase"
+#  matches the text is run (checked from top to bottom).
+# ============================================================
+
+# ---- EXAMPLE CUSTOM COMMANDS (uncomment to enable) ----
+# weather = weather in Antalya
+# play music = open spotify
+# close chrome = close chrome
+# contact 1 = send a message to my brother saying hello
+
+# ---- EXAMPLE: SWAP A BUILT-IN TRIGGER WITH YOUR OWN WORD ----
+# With the line below, saying "temperature" runs the weather report:
+# temperature = weather in Antalya
+#
+# Or use a short alias as a general open command:
+# br = open chrome
+
+# ============================================================
+#  NOTE: English commands are recognised more reliably (Vosk
+#  uses the English model). Short/custom English keys also work,
+#  but well-spoken English phrases are the most stable.
+# ============================================================
+
+open opera
+close opera
+open chrome
+close chrome
+weather
+weather for antalya
+show me the weather for antalya
+weather antalya tomorrow
+weather antalya today
+open minecraft
+close minecraft

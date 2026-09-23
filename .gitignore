@@ -1,0 +1,48 @@
+# ---- Secrets (NEVER commit) ----
+.env
+
+# ---- Spotify OAuth tokens (personal account) ----
+memory/spotify_token.json
+memory/spotify_token*.json
+
+# ---- Runtime / machine-specific state ----
+egitim/
+memory/memory.json
+screenshots/
+WindowGesture/*.log
+window_gesture.log
+*.sqlite
+*.db
+whatsapp_listener/
+.devin/
+portable/
+face.png
+
+# ---- Vosk models (large, downloaded / bundled) ----
+vosk-model-small-en-us-0.15/
+vosk-model-small-tr-0.3/
+vosk-model/
+*.task
+
+# ---- PyInstaller build artifacts ----
+build/
+dist/
+*.spec.bak
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- OS / editor ----
+Thumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+.vscode/
+
+# ---- Logs ----
+*.log

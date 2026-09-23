@@ -1,0 +1,19 @@
+customtkinter
+vosk
+sounddevice
+soundfile
+numpy
+requests
+python-dotenv
+flask
+psutil
+pyautogui
+pillow
+python-telegram-bot
+google-genai
+opencv-python
+mediapipe
+pycaw; sys_platform == 'win32'
+screen-brightness-control; sys_platform == 'win32'
+python-xlib; sys_platform != 'win32'
+pystray
